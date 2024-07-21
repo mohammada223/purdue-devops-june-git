@@ -19,7 +19,9 @@ public class PurdueDevopsJuneGitApplication {
       return String.format("Hello this is a first GIT sample project");
     }
 	
+
 	@GetMapping("/Hello") // changes in the b1 branch
+  
     public String hello1() {
       return String.format("Hello this is another message for the GIT sample project");
     }
