@@ -20,7 +20,7 @@ public class PurdueDevopsJuneGitApplication {
     }
 	
 
-	@GetMapping("/Hello") // b1 user - merging the conflict
+	@GetMapping("/Hello") // changes via GIT by a diff user
 
     public String hello1() {
       return String.format("Hello this is another message for the GIT sample project");
