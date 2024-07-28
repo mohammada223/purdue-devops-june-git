@@ -19,7 +19,7 @@ public class PurdueDevopsJuneGitApplication {
       return String.format("Hello this is a first GIT sample project");
     }
 	
-	@GetMapping("/Hello") // changes done by z1 on 27/07
+	@GetMapping("/Hello") // changes done on main by 2nd user on 27/07 //2nd commit
 
     public String hello1() {
       return String.format("Hello this is another message for the GIT sample project");
