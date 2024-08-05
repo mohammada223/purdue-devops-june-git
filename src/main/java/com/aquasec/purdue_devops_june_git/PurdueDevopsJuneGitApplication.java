@@ -23,7 +23,7 @@ public class PurdueDevopsJuneGitApplication {
 
     public String hello1() {
       return String.format("Hello this is another message for the GIT sample project");
-      //Changes done in the xxx branch
+      //Changes done in the zzz branch after reset with commit id
     }
 
 }
